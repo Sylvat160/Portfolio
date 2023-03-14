@@ -23,6 +23,10 @@ const Hero = () => {
           </p>
         </div>
       </div>
+
+      <div className="h-20" />
+
+
       <ComputersCanvas />
 
       <div className="absolute xs:bottom-30 bottom-0 w-full flex justify-center items-center">
