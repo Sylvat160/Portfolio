@@ -40,14 +40,16 @@ const About = () => {
         <h2 className={`${styles.heroHeadText}`}> Overview.</h2>
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px]leading-[30px] max-w-5xl'
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px]leading-[30px] max-w-5xl"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a skilled blockchain developer with experience in TypeScript and
+        JavaScript, specializing in frameworks like React, Next.js, and Hardhat.
+        I'm passionate about creating efficient, scalable, and user-friendly
+        solutions on the blockchain to solve real-world problems. I collaborate
+        closely with clients to bring their ideas to life. Let's work together
+        to build innovative blockchain solutions!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

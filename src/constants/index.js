@@ -23,6 +23,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  nextjs,
+  etherjs,
+  solidity,
+  ether,
+  hardhat,
+  movies,
+  zombies,
+  coming,
 } from "../assets";
 
 export const navLinks = [
@@ -46,11 +54,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Smart Contract Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Fullstack Developer",
     icon: backend,
   },
   {
@@ -80,9 +88,13 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "nextjs",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
@@ -93,34 +105,40 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
   {
-    name: "git",
-    icon: git,
+    name: "ether",
+    icon: ether,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "hardhat",
+    icon: hardhat,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "solidity",
+    icon: solidity,
   },
+  {
+    name: "etherjs",
+    icon: etherjs,
+  }
+
+ 
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Fullstack Developer",
+    company_name: "Laravel / React",
+    icon: "",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2022 - Feb 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,44 +147,42 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Freelance Developer",
+    company_name: "Personal",
+    icon: "",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing projects for clients using Laravel",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -198,16 +214,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Movies Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage movies from omdbapi",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "api",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +231,42 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: movies,
+    source_code_link: "https://github.com/Sylvat160/react-js-C",
   },
   {
-    name: "Job IT",
+    name: "Zombie Game",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A zombie game logic coding in solidity. Zombies multiply by feeding on other zombies and can attack other players.",
     tags: [
       {
-        name: "react",
+        name: "Solidity",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: zombies,
+    source_code_link: "https://github.com/Sylvat160/solidity_ZombiesGame",
   },
   {
-    name: "Trip Guide",
+    name: "Oracle",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A decentralized application that allows users to request data from an API and receive the response in a smart contract.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "hardhat",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: coming,
+    source_code_link: "https://github.com/Sylvat160",
   },
 ];
 

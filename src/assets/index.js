@@ -20,6 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
+import etherjs from "./tech/etherjs.png";
+import solidity from "./tech/solidity.png";
+import ether from "./tech/ether.png";
+import hardhat from "./tech/hardhat.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +34,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import movies from "./movies.png";
+import zombies from "./zombies.jpg";
+import coming from "./coming.jpg";
 
 export {
   backend,
@@ -59,4 +67,12 @@ export {
   jobit,
   tripguide,
   logo1,
+  nextjs,
+  etherjs,
+  solidity,
+  ether,
+  hardhat,
+  movies,
+  zombies,
+  coming,
 };
