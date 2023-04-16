@@ -18,14 +18,15 @@ const Hero = () => {
             Hi, i'm <span className="text-[#915eff]"> Sylvain </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-withe-100`}>
-            I develop 3d visuals, user <br className="sm:block hidden" />{" "}
-            interfaces and web applications.
+            I create innovative solutions on <br className="sm:block hidden" />{" "}
+            the blockchain with expertise in <br className="sm:block hidden" />{" "}
+            frameworks and{" "}
+            <span className=" font-bold text-[#915eff]">dApps</span>.
           </p>
         </div>
       </div>
 
       <div className="h-20" />
-
 
       <ComputersCanvas />
 
