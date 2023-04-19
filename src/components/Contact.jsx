@@ -26,6 +26,12 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    if (!form.name || !form.email || !form.message) {
+      setLoading(false);
+      alert("Please fill all the fields");
+      return;
+    }
+
     emailjs.send(
       "service_2hobyix",
       "template_x8u4ueh",
