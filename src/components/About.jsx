@@ -44,7 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px]leading-[30px] max-w-5xl"
       >
-        I'm a skilled blockchain developer with experience in TypeScript and
+        I'm a skilled blockchain developer with experience in Solidity, TypeScript and
         JavaScript, specializing in frameworks like React, Next.js, and Hardhat.
         I'm passionate about creating efficient, scalable, and user-friendly
         solutions on the blockchain to solve real-world problems. I collaborate
