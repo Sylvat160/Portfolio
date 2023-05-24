@@ -251,7 +251,7 @@ const projects = [
     live_link: "",
   },
   {
-    name: "Crownfunding",
+    name: "Crowdfunding",
     description:
       "Decentralized crowdfunding DApp revolutionizing fundraising.",
     tags: [
