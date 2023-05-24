@@ -37,6 +37,8 @@ import tripguide from "./tripguide.png";
 import movies from "./movies.png";
 import zombies from "./zombies.jpg";
 import coming from "./coming.jpg";
+import crownfunding from "./crownfunding.png";
+import project_launch from "./project_launch.png";
 
 export {
   backend,
@@ -75,4 +77,6 @@ export {
   movies,
   zombies,
   coming,
+  crownfunding,
+  project_launch,
 };

@@ -31,6 +31,7 @@ import {
   movies,
   zombies,
   coming,
+  crownfunding,
 } from "../assets";
 
 export const navLinks = [
@@ -233,6 +234,7 @@ const projects = [
     ],
     image: movies,
     source_code_link: "https://github.com/Sylvat160/react-js-C",
+    live_link : "",
   },
   {
     name: "Zombie Game",
@@ -246,6 +248,29 @@ const projects = [
     ],
     image: zombies,
     source_code_link: "https://github.com/Sylvat160/solidity_ZombiesGame",
+    live_link: "",
+  },
+  {
+    name: "Crownfunding",
+    description:
+      "Decentralized crowdfunding DApp revolutionizing fundraising.",
+    tags: [
+      {
+        name: "Vite - React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "thirdweb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: crownfunding,
+    source_code_link: "https://github.com/Sylvat160/Crowfundind-Dapp.git",
+    live_link: "https://crowfundind-dapp.vercel.app/",
   },
   {
     name: "Oracle",
@@ -267,6 +292,7 @@ const projects = [
     ],
     image: coming,
     source_code_link: "https://github.com/Sylvat160",
+    live_link: "",
   },
 ];
 
