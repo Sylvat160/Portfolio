@@ -39,6 +39,7 @@ import zombies from "./zombies.jpg";
 import coming from "./coming.jpg";
 import crownfunding from "./crownfunding.png";
 import project_launch from "./project_launch.png";
+import xplorer from "./x-plorer.png";
 
 export {
   backend,
@@ -78,5 +79,6 @@ export {
   zombies,
   coming,
   crownfunding,
-  project_launch,
+  project_launch, 
+  xplorer
 };

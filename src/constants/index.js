@@ -32,6 +32,7 @@ import {
   zombies,
   coming,
   crownfunding,
+  xplorer,
 } from "../assets";
 
 export const navLinks = [
@@ -271,6 +272,25 @@ const projects = [
     image: crownfunding,
     source_code_link: "https://github.com/Sylvat160/Crowfundind-Dapp.git",
     live_link: "https://crowfundind-dapp.vercel.app/",
+  },
+  {
+    name: "block explorer",
+    description:
+      "Block Explorer and Analytics Platform for Ethereum, a decentralized smart contracts platform.",
+    tags: [
+      {
+        name: "Vite - React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Alchemy-SDK",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: xplorer,
+    source_code_link: "https://github.com/Sylvat160/block_explorer.git",
+    live_link: "https://x-plorer.vercel.app/",
   },
   {
     name: "Oracle",
