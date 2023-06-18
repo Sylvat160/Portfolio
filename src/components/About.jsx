@@ -44,12 +44,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px]leading-[30px] max-w-5xl"
       >
-        I'm a skilled blockchain developer with experience in Solidity, TypeScript and
-        JavaScript, specializing in frameworks like React, Next.js, and Hardhat.
-        I'm passionate about creating efficient, scalable, and user-friendly
-        solutions on the blockchain to solve real-world problems. I collaborate
-        closely with clients to bring their ideas to life. Let's work together
-        to build innovative blockchain solutions!
+        As a software and blockchain engineer, I have a solid foundation
+        in Solidity, TypeScript, and JavaScript. Proficient in frameworks like
+        React, Next.js, and Hardhat, I am eager to contribute my knowledge and
+        collaborate on developing efficient and secure blockchain solutions.
+        Let's work together to create innovative applications and enhance my
+        skills in the process.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
