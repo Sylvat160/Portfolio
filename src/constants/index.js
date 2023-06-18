@@ -33,6 +33,7 @@ import {
   coming,
   crownfunding,
   xplorer,
+  avaxgods
 } from "../assets";
 
 export const navLinks = [
@@ -291,6 +292,25 @@ const projects = [
     image: xplorer,
     source_code_link: "https://github.com/Sylvat160/block_explorer.git",
     live_link: "https://x-plorer.vercel.app/",
+  },
+  {
+    name: "Avax Gods",
+    description:
+      "An ERC-1155 based NFT game on Avalanche.",
+    tags: [
+      {
+        name: "Vite - React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Avalanche",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: avaxgods,
+    source_code_link: "https://github.com/Sylvat160/nft-gaming.git",
+    live_link: "",
   },
   {
     name: "Oracle",
