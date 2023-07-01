@@ -33,7 +33,8 @@ import {
   coming,
   crownfunding,
   xplorer,
-  avaxgods
+  avaxgods,
+  escrow
 } from "../assets";
 
 export const navLinks = [
@@ -296,7 +297,7 @@ const projects = [
   {
     name: "Avax Gods",
     description:
-      "An ERC-1155 based NFT game on Avalanche.",
+      "An ERC-1155 based NFT game on Avalanche. Users can play the game and earn Tokens.  The game is based on the popular avaxGods.",
     tags: [
       {
         name: "Vite - React",
@@ -311,6 +312,25 @@ const projects = [
     image: avaxgods,
     source_code_link: "https://github.com/Sylvat160/nft-gaming.git",
     live_link: "",
+  },
+  {
+    name: "Escrow Dapp",
+    description:
+      "A decentralized escrow application that allows user to create an escrow contract and send funds to the contract.",
+    tags: [
+      {
+        name: "Vite - React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity - Hardhat",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: escrow,
+    source_code_link: "hhttps://github.com/Sylvat160/Escrow_Dapp.git",
+    live_link: "https://escrow-dapp-nu.vercel.app/",
   },
   {
     name: "Oracle",
