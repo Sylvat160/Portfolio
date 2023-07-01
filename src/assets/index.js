@@ -41,6 +41,7 @@ import crownfunding from "./crownfunding.png";
 import project_launch from "./project_launch.png";
 import xplorer from "./x-plorer.png";
 import avaxgods from "./avaxgods.png"
+import escrow from "./escrow.png"
 
 export {
   backend,
@@ -82,5 +83,6 @@ export {
   crownfunding,
   project_launch, 
   xplorer,
-  avaxgods
+  avaxgods,
+  escrow
 };
