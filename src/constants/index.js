@@ -296,7 +296,7 @@ const projects = [
     ],
     image: avaxgods,
     source_code_link: "https://github.com/Sylvat160/nft-gaming.git",
-    live_link: "",
+    live_link: "https://nft-gaming-seven.vercel.app/",
   },
   {
     name: "Escrow Dapp",
