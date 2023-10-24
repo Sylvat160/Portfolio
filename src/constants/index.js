@@ -34,7 +34,8 @@ import {
   crownfunding,
   xplorer,
   avaxgods,
-  escrow
+  escrow,
+  pwa
 } from "../assets";
 
 export const navLinks = [
@@ -316,6 +317,25 @@ const projects = [
     image: escrow,
     source_code_link: "hhttps://github.com/Sylvat160/Escrow_Dapp.git",
     live_link: "https://escrow-dapp-nu.vercel.app/",
+  },
+  {
+    name: "Pwa Weather app",
+    description:
+      "A progressive web app that allows users to search for weather information of any city.",
+    tags: [
+      {
+        name: "Vite - React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Service worker - Manifest",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: pwa,
+    source_code_link: "https://github.com/Sylvat160/pwa-wa.git",
+    live_link: "https://pwa-wa.vercel.app/",
   },
   {
     name: "Oracle",

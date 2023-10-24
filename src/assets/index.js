@@ -42,6 +42,7 @@ import project_launch from "./project_launch.png";
 import xplorer from "./x-plorer.png";
 import avaxgods from "./avaxgods.png"
 import escrow from "./escrow.png"
+import pwa from './pwa.png'
 
 export {
   backend,
@@ -84,5 +85,6 @@ export {
   project_launch, 
   xplorer,
   avaxgods,
-  escrow
+  escrow,
+  pwa
 };
